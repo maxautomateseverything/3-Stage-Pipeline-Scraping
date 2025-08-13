@@ -82,4 +82,4 @@ python generalized_profiles.py config.example.yml
 ## Tips
 - If a field is numeric in downstream analysis, keep the CSV value blank "" for missing (instead of "None"), then cast to numeric with NA handling.
 
-- If locations can exceed the column budget regularly, either (a) increase max_columns, or (b) store a separate one‑to‑many CSV keyed by profile URL.
+- If LOCATIONS can exceed the column budget regularly, either (a) increase max_columns, or (b) store a separate one‑to‑many CSV keyed by profile URL.
